@@ -2,8 +2,6 @@ import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import './globals.css';
 
-// git comment
-
 const inter = Inter({
   subsets: ['latin'],
   variable: '--font-inter',
