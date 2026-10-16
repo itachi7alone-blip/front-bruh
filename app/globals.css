@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --uniswap-pink: #FF37C7;
+  --uniswap-pink-accessible: #F500B4;
+  --surface: #FFFFFF;
+  --surface-2: #F9F9F9;
+  --neutral-1: #222222;
+  --neutral-2: #666666;
+  --neutral-3: #F2F2F2;
+  --state-overlay-hover: rgba(0,0,0,0.04);
+}
+
+html {
+  color-scheme: light;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: #FFFFFF;
+  color: #222222;
+  font-family: var(--font-inter), sans-serif;
+  letter-spacing: -0.02em;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+button,
+input,
+select {
+  font: inherit;
+  letter-spacing: inherit;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(0,0,0,0.08);
+  border-radius: 9999px;
+}
